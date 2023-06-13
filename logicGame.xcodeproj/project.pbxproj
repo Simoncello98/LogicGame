@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A22D8C82076EA63FC17B278 /* Pods_logicGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417A09CBED1673421F8C4599 /* Pods_logicGameUITests.framework */; };
+		9B99FFB982A44D95A2A09A03 /* Pods_logicGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085D63EF519C3E198E99EAC1 /* Pods_logicGameTests.framework */; };
+		9C43D2B42874A8DA0060E5CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C43D2B32874A8DA0060E5CE /* GoogleService-Info.plist */; };
+		9C4CE67B2144133B001F76A2 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CE67A2144133B001F76A2 /* EndViewController.swift */; };
+		9C4D115320936B48003F467E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D115220936B48003F467E /* LogInViewController.swift */; };
+		9C5059E8209361C1003CDFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5059E7209361C1003CDFF7 /* AppDelegate.swift */; };
+		9C5059ED209361C1003CDFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5059EB209361C1003CDFF7 /* Main.storyboard */; };
+		9C5059EF209361C1003CDFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5059EE209361C1003CDFF7 /* Assets.xcassets */; };
+		9C5059F2209361C1003CDFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5059F0209361C1003CDFF7 /* LaunchScreen.storyboard */; };
+		9C5059FD209361C1003CDFF7 /* logicGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5059FC209361C1003CDFF7 /* logicGameTests.swift */; };
+		9C505A08209361C1003CDFF7 /* logicGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C505A07209361C1003CDFF7 /* logicGameUITests.swift */; };
+		9CB4321E21403CC300109BDD /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4321D21403CC200109BDD /* QuizViewController.swift */; };
+		9CB98EA42138AF9300FE039C /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB98EA32138AF9300FE039C /* WaitingViewController.swift */; };
+		C0E41EDD648B306831454213 /* Pods_logicGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FB64D8E95CE1CC50BBCDFD /* Pods_logicGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5059F9209361C1003CDFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5059DC209361C1003CDFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5059E3209361C1003CDFF7;
+			remoteInfo = logicGame;
+		};
+		9C505A04209361C1003CDFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5059DC209361C1003CDFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5059E3209361C1003CDFF7;
+			remoteInfo = logicGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0288A7BA7644BB05B38963F5 /* Pods-logicGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logicGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-logicGameTests/Pods-logicGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		085D63EF519C3E198E99EAC1 /* Pods_logicGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_logicGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		269D688DB228E2BF3B565247 /* Pods-logicGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logicGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-logicGameUITests/Pods-logicGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30FB64D8E95CE1CC50BBCDFD /* Pods_logicGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_logicGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BC73906C5642B4424F6434 /* Pods-logicGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logicGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-logicGame/Pods-logicGame.debug.xcconfig"; sourceTree = "<group>"; };
+		417A09CBED1673421F8C4599 /* Pods_logicGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_logicGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C27B84BADF57BB9B378921 /* Pods-logicGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logicGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-logicGame/Pods-logicGame.release.xcconfig"; sourceTree = "<group>"; };
+		94C5B4A207597FB48B562E95 /* Pods-logicGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logicGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-logicGameUITests/Pods-logicGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C43D2B32874A8DA0060E5CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C4CE67A2144133B001F76A2 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		9C4D115220936B48003F467E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9C5059E4209361C1003CDFF7 /* logicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5059E7209361C1003CDFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C5059EC209361C1003CDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C5059EE209361C1003CDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5059F1209361C1003CDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C5059F3209361C1003CDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5059F8209361C1003CDFF7 /* logicGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logicGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5059FC209361C1003CDFF7 /* logicGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicGameTests.swift; sourceTree = "<group>"; };
+		9C5059FE209361C1003CDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C505A03209361C1003CDFF7 /* logicGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logicGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C505A07209361C1003CDFF7 /* logicGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicGameUITests.swift; sourceTree = "<group>"; };
+		9C505A09209361C1003CDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB4321D21403CC200109BDD /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		9CB98EA32138AF9300FE039C /* WaitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingViewController.swift; sourceTree = "<group>"; };
+		B2B600F76BC7DE69745FFCCB /* Pods-logicGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-logicGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-logicGameTests/Pods-logicGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5059E1209361C1003CDFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E41EDD648B306831454213 /* Pods_logicGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5059F5209361C1003CDFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B99FFB982A44D95A2A09A03 /* Pods_logicGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C505A00209361C1003CDFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A22D8C82076EA63FC17B278 /* Pods_logicGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F8B5E09B7C3CD374337FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36BC73906C5642B4424F6434 /* Pods-logicGame.debug.xcconfig */,
+				84C27B84BADF57BB9B378921 /* Pods-logicGame.release.xcconfig */,
+				B2B600F76BC7DE69745FFCCB /* Pods-logicGameTests.debug.xcconfig */,
+				0288A7BA7644BB05B38963F5 /* Pods-logicGameTests.release.xcconfig */,
+				269D688DB228E2BF3B565247 /* Pods-logicGameUITests.debug.xcconfig */,
+				94C5B4A207597FB48B562E95 /* Pods-logicGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C5059DB209361C1003CDFF7 = {
+			isa = PBXGroup;
+			children = (
+				9C5059E6209361C1003CDFF7 /* logicGame */,
+				9C5059FB209361C1003CDFF7 /* logicGameTests */,
+				9C505A06209361C1003CDFF7 /* logicGameUITests */,
+				9C5059E5209361C1003CDFF7 /* Products */,
+				16F8B5E09B7C3CD374337FD0 /* Pods */,
+				F5FC69B0699397BE5C02FF5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5059E5209361C1003CDFF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5059E4209361C1003CDFF7 /* logicGame.app */,
+				9C5059F8209361C1003CDFF7 /* logicGameTests.xctest */,
+				9C505A03209361C1003CDFF7 /* logicGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5059E6209361C1003CDFF7 /* logicGame */ = {
+			isa = PBXGroup;
+			children = (
+				9C5059E7209361C1003CDFF7 /* AppDelegate.swift */,
+				9C4D115220936B48003F467E /* LogInViewController.swift */,
+				9CB98EA32138AF9300FE039C /* WaitingViewController.swift */,
+				9CB4321D21403CC200109BDD /* QuizViewController.swift */,
+				9C4CE67A2144133B001F76A2 /* EndViewController.swift */,
+				9C5059EB209361C1003CDFF7 /* Main.storyboard */,
+				9C5059EE209361C1003CDFF7 /* Assets.xcassets */,
+				9C5059F0209361C1003CDFF7 /* LaunchScreen.storyboard */,
+				9C43D2B32874A8DA0060E5CE /* GoogleService-Info.plist */,
+				9C5059F3209361C1003CDFF7 /* Info.plist */,
+			);
+			path = logicGame;
+			sourceTree = "<group>";
+		};
+		9C5059FB209361C1003CDFF7 /* logicGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5059FC209361C1003CDFF7 /* logicGameTests.swift */,
+				9C5059FE209361C1003CDFF7 /* Info.plist */,
+			);
+			path = logicGameTests;
+			sourceTree = "<group>";
+		};
+		9C505A06209361C1003CDFF7 /* logicGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C505A07209361C1003CDFF7 /* logicGameUITests.swift */,
+				9C505A09209361C1003CDFF7 /* Info.plist */,
+			);
+			path = logicGameUITests;
+			sourceTree = "<group>";
+		};
+		F5FC69B0699397BE5C02FF5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FB64D8E95CE1CC50BBCDFD /* Pods_logicGame.framework */,
+				085D63EF519C3E198E99EAC1 /* Pods_logicGameTests.framework */,
+				417A09CBED1673421F8C4599 /* Pods_logicGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5059E3209361C1003CDFF7 /* logicGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C505A0C209361C1003CDFF7 /* Build configuration list for PBXNativeTarget "logicGame" */;
+			buildPhases = (
+				5B55B181050E81B82EF8B94B /* [CP] Check Pods Manifest.lock */,
+				9C5059E0209361C1003CDFF7 /* Sources */,
+				9C5059E1209361C1003CDFF7 /* Frameworks */,
+				9C5059E2209361C1003CDFF7 /* Resources */,
+				AD64EB583E7A021B547A5237 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = logicGame;
+			productName = logicGame;
+			productReference = 9C5059E4209361C1003CDFF7 /* logicGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5059F7209361C1003CDFF7 /* logicGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C505A0F209361C1003CDFF7 /* Build configuration list for PBXNativeTarget "logicGameTests" */;
+			buildPhases = (
+				91D847AB5B2B829D8FA5B2D1 /* [CP] Check Pods Manifest.lock */,
+				9C5059F4209361C1003CDFF7 /* Sources */,
+				9C5059F5209361C1003CDFF7 /* Frameworks */,
+				9C5059F6209361C1003CDFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5059FA209361C1003CDFF7 /* PBXTargetDependency */,
+			);
+			name = logicGameTests;
+			productName = logicGameTests;
+			productReference = 9C5059F8209361C1003CDFF7 /* logicGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C505A02209361C1003CDFF7 /* logicGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C505A12209361C1003CDFF7 /* Build configuration list for PBXNativeTarget "logicGameUITests" */;
+			buildPhases = (
+				DD21BE9267CCD1EC8CF35AF9 /* [CP] Check Pods Manifest.lock */,
+				9C5059FF209361C1003CDFF7 /* Sources */,
+				9C505A00209361C1003CDFF7 /* Frameworks */,
+				9C505A01209361C1003CDFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C505A05209361C1003CDFF7 /* PBXTargetDependency */,
+			);
+			name = logicGameUITests;
+			productName = logicGameUITests;
+			productReference = 9C505A03209361C1003CDFF7 /* logicGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5059DC209361C1003CDFF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mobo;
+				TargetAttributes = {
+					9C5059E3209361C1003CDFF7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C5059F7209361C1003CDFF7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C5059E3209361C1003CDFF7;
+					};
+					9C505A02209361C1003CDFF7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C5059E3209361C1003CDFF7;
+					};
+				};
+			};
+			buildConfigurationList = 9C5059DF209361C1003CDFF7 /* Build configuration list for PBXProject "logicGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C5059DB209361C1003CDFF7;
+			productRefGroup = 9C5059E5209361C1003CDFF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5059E3209361C1003CDFF7 /* logicGame */,
+				9C5059F7209361C1003CDFF7 /* logicGameTests */,
+				9C505A02209361C1003CDFF7 /* logicGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5059E2209361C1003CDFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5059F2209361C1003CDFF7 /* LaunchScreen.storyboard in Resources */,
+				9C43D2B42874A8DA0060E5CE /* GoogleService-Info.plist in Resources */,
+				9C5059EF209361C1003CDFF7 /* Assets.xcassets in Resources */,
+				9C5059ED209361C1003CDFF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5059F6209361C1003CDFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C505A01209361C1003CDFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B55B181050E81B82EF8B94B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-logicGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D847AB5B2B829D8FA5B2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-logicGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD64EB583E7A021B547A5237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-logicGame/Pods-logicGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseDatabase/FirebaseDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-logicGame/Pods-logicGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD21BE9267CCD1EC8CF35AF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-logicGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5059E0209361C1003CDFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5059E8209361C1003CDFF7 /* AppDelegate.swift in Sources */,
+				9C4CE67B2144133B001F76A2 /* EndViewController.swift in Sources */,
+				9C4D115320936B48003F467E /* LogInViewController.swift in Sources */,
+				9CB98EA42138AF9300FE039C /* WaitingViewController.swift in Sources */,
+				9CB4321E21403CC300109BDD /* QuizViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5059F4209361C1003CDFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5059FD209361C1003CDFF7 /* logicGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5059FF209361C1003CDFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C505A08209361C1003CDFF7 /* logicGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5059FA209361C1003CDFF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5059E3209361C1003CDFF7 /* logicGame */;
+			targetProxy = 9C5059F9209361C1003CDFF7 /* PBXContainerItemProxy */;
+		};
+		9C505A05209361C1003CDFF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5059E3209361C1003CDFF7 /* logicGame */;
+			targetProxy = 9C505A04209361C1003CDFF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5059EB209361C1003CDFF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5059EC209361C1003CDFF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C5059F0209361C1003CDFF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5059F1209361C1003CDFF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C505A0A209361C1003CDFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C505A0B209361C1003CDFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C505A0D209361C1003CDFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BC73906C5642B4424F6434 /* Pods-logicGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93PS5ZU236;
+				INFOPLIST_FILE = logicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simoneScionti.logicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C505A0E209361C1003CDFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C27B84BADF57BB9B378921 /* Pods-logicGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93PS5ZU236;
+				INFOPLIST_FILE = logicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simoneScionti.logicGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C505A10209361C1003CDFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B600F76BC7DE69745FFCCB /* Pods-logicGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = logicGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simoneScionti.logicGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logicGame.app/logicGame";
+			};
+			name = Debug;
+		};
+		9C505A11209361C1003CDFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0288A7BA7644BB05B38963F5 /* Pods-logicGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = logicGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simoneScionti.logicGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logicGame.app/logicGame";
+			};
+			name = Release;
+		};
+		9C505A13209361C1003CDFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269D688DB228E2BF3B565247 /* Pods-logicGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = logicGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simoneScionti.logicGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = logicGame;
+			};
+			name = Debug;
+		};
+		9C505A14209361C1003CDFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5B4A207597FB48B562E95 /* Pods-logicGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = logicGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simoneScionti.logicGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = logicGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5059DF209361C1003CDFF7 /* Build configuration list for PBXProject "logicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C505A0A209361C1003CDFF7 /* Debug */,
+				9C505A0B209361C1003CDFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C505A0C209361C1003CDFF7 /* Build configuration list for PBXNativeTarget "logicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C505A0D209361C1003CDFF7 /* Debug */,
+				9C505A0E209361C1003CDFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C505A0F209361C1003CDFF7 /* Build configuration list for PBXNativeTarget "logicGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C505A10209361C1003CDFF7 /* Debug */,
+				9C505A11209361C1003CDFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C505A12209361C1003CDFF7 /* Build configuration list for PBXNativeTarget "logicGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C505A13209361C1003CDFF7 /* Debug */,
+				9C505A14209361C1003CDFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5059DC209361C1003CDFF7 /* Project object */;
+}
